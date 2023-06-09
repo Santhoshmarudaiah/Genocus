@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/jquery/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid" style="background-color: rgb(91, 90, 90);">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><a href="index.html" style="color: black;">KnightOne</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar order-last order-lg-0" style="position: sticky;">
+            <ul>
+              <li><a class="nav-link scrollto active" style="color: black;" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" style="color: black;" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" style="color: black;" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto " style="color: black;" href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link scrollto" style="color: black;" href="#pricing">Pricing</a></li>
+              <li class="dropdown"><a href="#"><span style="color: black;">Drop Down</span> <i
+                    class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" style="color: black;" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+          <a href="#about" class="get-started-btn scrollto">Get Started</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>KnightOne - Hire The Best Freelancer For AnyJob</h1>
+          <h2>We are team of designers making websites with Bootstrap</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 class="talent">Browse talent by category</h2>
+      <p>Get some inspire from 1800+ skills</p>
+      <div class="row ">
+        <div class="col-md-3 i1"> <i class="fa-solid fa-download fa-2x "></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Development & IT</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+
+
+        </div>
+        <div class="col-md-3 i1"><i class="fa-solid fa-cart-plus fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Design & Creative</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+        </div>
+        <div class="col-md-3 i1">
+          <i class="fa-solid fa-envelope-open-text fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Digital Marketing</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+        </div>
+        <div class="col-md-3 i1">
+          <i class="fa-solid fa-square-rss fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Writing & Translation</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="row r2">
+        <div class="col-md-3 i2"> <i class="fa-solid fa-pencil fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Music & Audio</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+
+
+        </div>
+        <div class="col-md-3 i2"><i class="fa-solid fa-keyboard fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Video & Animation</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+        </div>
+        <div class="col-md-3 i2">
+          <i class="fa-regular fa-newspaper fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Engineering and Architecture</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+        </div>
+        <div class="col-md-3 i2">
+          <i class="fa-regular fa-newspaper fa-2x"></i>
+          <div class="num">1853 skills</div>
+          <div>
+            <h6 class="dev"><strong>Finance and accounting</strong></h6>
+          </div>
+          <div>Software Engineer,web/mobile</div>
+          <div>developer & more</div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid f1">
+      <div class="row sandy">
+
+
+        <div class="owl-carousel owl-theme">
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-9.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-2.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-3.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-4.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-8.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-details-3.jpg"
+              alt=""></div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-7.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-8.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-9.jpg" alt="">
+          </div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-details-1.jpg"
+              alt=""></div>
+          <div class="item carousel1"><img src="KnightOne (4)/KnightOne/assets/img/portfolio/portfolio-details-2.jpg"
+              alt=""></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container done">
+      <h3 style="text-align: center;"><strong>Need something Done</strong></h3>
+      <p style="text-align: center;">Most Viewed and all-time top-selling services</p>
+      <div class="row post">
+        <div class="col-md-3">
+          <i class="fa-regular fa-bell fa-2x"></i>
+          <h6 class="m1"><strong>Post a Job</strong></h6>
+          <p>It's free and easy to post a Job.Simply Fill in Title.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fa-solid fa-house-laptop fa-2x"></i>
+          <h6 class="m1"><strong>Choose Freelancers</strong></h6>
+          <p>It's free and easy to post a Job.Simply Fill in Title.</p>
+        </div>
+        <div class="col-md-3"><i class="fa-sharp fa-regular fa-atom fa-2x"></i>
+          <h6 class="m1"><strong>Pay Safely</strong></h6>
+
+          <p>I1t's free and easy to post a Job.Simply Fill in Title.</p>
+
+        </div>
+        <div class="col-md-3"><i class="fa-solid fa-cart-shopping fa-2x"></i>
+          <h6 class="m1"><strong>We're here to Help</strong> </h6>
+          <p>It's free and easy to post a Job.Simply Fill in Title.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fff">
+    <div class="container Freelan">
+      <div class="row">
+
+        <div class="col-md-6">
+          <h3 style="padding-left: 20px;"><strong>A Whole World of Freelance <br>Talent at your Fingertips</strong></h3>
+          <div class="icon-box r1">
+
+            <h4 class="ic" style="color: #0880e8;">
+              <span> <i class="fa-solid fa-table-list fa-2x ic"></i></span>
+              Lorem Ipsum
+            </h4>
+
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas <br> molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+          <div class="icon-box r1">
+
+            <h4 class="ic" style="color: #0880e8;">
+              <span> <i class="fa-solid fa-chart-simple fa-2x ic"></i></span>
+              Dolar Sitema
+            </h4>
+
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas <br> molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+          <div class="icon-box r1">
+            <h4 style="color: #0880e8;">
+
+              <span><i class="fa-solid fa-briefcase fa-2x ic"></i></span>Eiusmod Tempor
+            </h4>
+            <p class="p">Et harum quidem rerum facilis est et expedita distinctio. <br> Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+
+        </div>
+        <div class="col-md-6 "><img src="images/blog-2.jpg" class="blog"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container view">
+      <div class="row">
+        <div class="col-md-3">
+          <h2><strong>834M</strong></h2>
+          <p>Total FreeLancer</p>
+
+        </div>
+        <div class="col-md-3">
+          <h2><strong>732M</strong></h2>
+          <p>Positive Review</p>
+        </div>
+        <div class="col-md-3">
+          <h2><strong>900M</strong></h2>
+          <p>Order Recieved</p>
+        </div>
+        <div class="col-md-3">
+          <h2><strong>236M</strong></h2>
+          <p>Project Completed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container Testimonials">
+      <div class="row ">
+        <h2 style="text-align: center;"><strong>Testimonials</strong></h2>
+        <p style="text-align: center;">Interdem et Malesuada Fames ac ante Ipsum</p>
+      </div>
+      <div class="quotes"><i class="fa-sharp fa-solid fa-quote-left fa-3x"></i></div>
+
+    </div>
+    <div>
+      <h5 style="text-align: center;padding-top: 20px;"><strong>"Our Family was Travelling via Bullet Train Between
+          Cities in Japan <br> With our Luggage- the
+          location for this Hotel made that so easy. <br>Agoda Price was fantastic".</strong>
+      </h5>
+    </div>
+    <div class="Team" >
+      <img src="images/team/team-1.jpg" class="Team1" alt="">
+      <img src="images/team/team-2.jpg" class="Team2" alt="">
+      <img src="images/team/team-3.jpg" class="Team3" alt="">
+      <img src="images/team/team-4.jpg" class="Team4" alt="">
+
+    </div>
+
+  </section>
+  <section class="cool1">
+    <div class="container-fluid cool">
+      <div class="row">
+        <div class="col-md-7 collage"><img src="images/collage.png" alt=""></div>
+        <div class="col-md-5 collage1">
+          <p class="w1 p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+
+
+          <p><i class="fa-solid fa-check-double"></i> An independent labourer earning wages per job is known as a
+            freelancer. </p>
+          <p><i class="fa-solid fa-check-double"></i> They enjoy the freedom of working from home at flexible times.</p>
+          <p><i class="fa-solid fa-check-double"></i> A freelancer can work full-time or part-time, depending on their
+            contract. </p>
+          <p><i class="fa-solid fa-check-double"></i>They enjoy choosing the clients they're interested in working with.
+          </p>
+          <p><i class="fa-solid fa-check-double"></i> Thus, they can work with one client or with many clients
+            simultaneously.</p>
+
+          <p class="w1 p">
+            Voluptatum deleniti atque corrupti quos dolores et quas <br> molestias excepturi sint
+            occaecati cupiditate non provident
+          </p>
+          <button style="background-color:#0b432e;">learn more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="container">
+      <div class="row c">
+        <h4><strong>Our Blog</strong></h4>
+        <p>See How You can Up Your Career Status </p>
+        <div class="col-md-3 c">
+          <div class="card " style="width: 16rem;">
+            <img src="images/card1.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Start a Business and <br>Work from Home</strong></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 c">
+          <div class="card " style="width: 16rem;">
+            <img src="images/card2.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Start a Business and <br>Work from Home</strong></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 c">
+          <div class="card " style="width: 16rem;">
+            <img src="images/card3.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Start a Business and <br>Work from Home</strong></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 c">
+          <div class="card " style="width: 16rem;">
+            <img src="images/card4.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Start a Business and <br>Work from Home</strong></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row client" >
+        <p style="text-align: center; padding-top: 60px;">Trusted by the World's Best</p>
+        <div class="align">
+         <div class="col-md-2"><img src="images/clients/client-1.png" height="40px" width="55px" alt=""></div>
+         <div class="col-md-2"><img src="images/clients/client-2.png" height="40px" width="55px" alt=""></div>
+         <div class="col-md-2"><img src="images/clients/client-3.png" height="40px" width="55px" alt=""></div>
+         <div class="col-md-2"><img src="images/clients/client-4.png" height="40px" width="55px" alt=""></div>
+         <div class="col-md-2"><img src="images/clients/client-5.png"height="40px" width="55px" alt=""></div>
+         <div class="col-md-2"><img src="images/clients/client-6.png" height="40px" width="55px" alt=""></div>
+
+        </div>
+      <div>
+    </div>
+  </section>
+
+  <section class="foot" style="background-color:#ede8e9  ;margin-top: 80px;">
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-7" style="padding-top: 50px;">
+          <h4><strong>Find The Talent Needed To get Your <br>Business Growing</strong></h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <button style="background-color: #0880e8;">Get Started</button>
+        </div>
+        <div class="col-md-5 effect "> <img src="images/three.jpg" style="background-color:#ede8e9 ;" height="250px" alt="" 
+          > </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color: rgb(93, 92, 92);color: #ede8e9;">
+    <div class="container" style="padding-top: 70px;">
+      <div class="row">
+        <div class="col-md-3">
+          <h5><strong>Useful Links</strong></h5>
+            <ul>
+              <li><i class="fa-solid fa-chevron-right"></i>Home</li>
+              <li><i class="fa-solid fa-chevron-right"></i>About us</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Services</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Terms of service</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Privacy policy</li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+          <h5><strong>Our Services</strong></h5>
+          <ul>
+            <li><i class="fa-solid fa-chevron-right "></i>Web Design</li>
+            <li><i class="fa-solid fa-chevron-right"></i>Web Development</li>
+            <li><i class="fa-solid fa-chevron-right"></i>Product Management</li>
+            <li><i class="fa-solid fa-chevron-right"></i>Marketing</li>
+            <li><i class="fa-solid fa-chevron-right"></i>Graphic Design</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5> <strong>Contact Us</strong></h5>
+          <p>
+            A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+
+        </div>
+
+        <div class="col-md-3">
+          <h5><strong>About Knightone</strong></h5>
+          <p class="b1 p">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna
+            derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter "></i></a>
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="google-plus"> <i class="fa-brands fa-skype"></i></a>
+            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
